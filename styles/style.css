@@ -15,7 +15,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 50px 125px;
+    margin: 0px 125px 50px 125px;
     
 }
 
@@ -183,17 +183,13 @@ main{
 
 
 /*resume style*/
-
-.section-title{
-
+.resume-title{
     font-weight: 700;
     font-size: 35px;
-    color: rgba(24, 24, 24, 1);
+    color: #181818;
     text-align: center;
     margin-top: 130px;
-
 }
-
 .resume-container{
     display: flex;
     gap: 25px;
@@ -243,6 +239,49 @@ main{
     border-radius: 5px;
     border: none; 
     text-align: center;
-    margin: 50px 450px;
+    margin: 50px 450px 113px 450px;
 
+}
+
+/*footer styles*/
+.footer-container{
+    display: flex;
+}
+
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+
+.footer-column{
+    width: 50%;
+}
+
+footer input[type="text"] , footer input[type="email"]{
+    height: 50px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 26%;
+    padding: 15px 350px 15px 30px;
+    border: none;
+    margin-bottom: 24px;
+
+}
+
+.icons{
+    margin-top: 50px;
+    gap: 30px;
+}
+
+footer textarea{
+    display: block;
+    margin-bottom: 24px;
+    border:none;
+    padding: 15px 0px 15px 30px;
+}
+
+.icons img{
+    margin-right: 24px;
 }
